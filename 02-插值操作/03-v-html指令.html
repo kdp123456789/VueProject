@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    {{message}}
+    {{img}}
+    {{address}}
+    <h2 v-html="img"></h2>
+    <h2 v-html="address"></h2>
+</div>
+<script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el : "#app",
+        data : {
+            message : "你好，世界!",
+            img : "<img src='../images/1.jpg'>",
+            address : '<a href="www.baidu.com/">百度一下</a>',
+        },
+        methods : {
+
+        }
+    })
+</script>
+</body>
+</html>

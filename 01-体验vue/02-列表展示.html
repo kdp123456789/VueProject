@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/css">
+        [v-cloak]{
+            display:none
+        }
+    </script>
+</head>
+<body>
+
+<div id="app" v-cloak>
+    <h3>{{message}}</h3>
+    <h2 v-for="(item,index) in movies" >{{item}}-{{index}}</h2>
+</div>
+<script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el : "#app",
+        data : {
+            message : "你好，世界!",
+            movies : ["第一","第二","第三","第四"]
+        },
+        methods : {
+
+        }
+    })
+
+</script>
+</body>
+</html>
