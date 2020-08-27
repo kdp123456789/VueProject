@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    {{message}}
+    <h2 v-bind:style="{color:h1,fontSize:h2 + 'px'}">红色</h2>
+    <h2 v-bind:style="getStyle()">蓝色</h2>
+    <hr>
+    <h2 v-bind:style="[h4]">红色</h2>
+    <h2 v-bind:style="[h5]">蓝色</h2>
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+    // v-bind:style 可绑定对象数组[]和对象{}
+    const app = new Vue({
+        el : "#app",//用于管理元素（区域）
+        data : {
+            message : "你好，世界！",
+            h1 : 'red',
+            h2 : 50,
+            h3 : 100,
+            h4 : {color:'yellow',fontSize:150 + 'px'},
+            h5 : {color:'yellow',fontSize:250 + 'px'},
+        },
+        methods : {
+            getStyle : function (){
+                return {backgroundColor:this.h1,fontWeight:this.h3}
+            }
+        }
+    })
+</script>
+</body>
+</html>

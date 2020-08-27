@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    {{message}}
+    <h2>总价格:{{totalPrice}}</h2>
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el : "#app",//用于管理元素（区域）
+        data : {
+            message : "你好，世界！",
+            books : [
+                {id:'001',name:"代码大全",price:87},
+                {id:'002',name:"计算机原理",price:98},
+                {id:'003',name:"操作系统",price:100}
+            ]
+        },
+        computed : {
+            totalPrice : function (){
+                let totalPrice = 0;
+                /*for(let i=0;i<this.books.length;i++){
+                    totalPrice +=this.books[i].price;
+                }*/
+
+              /*  for(let i in this.books){
+                    totalPrice +=this.books[i].price;
+                }*/
+
+                for(let books of this.books){
+                    totalPrice +=books.price;
+                }
+
+                return totalPrice
+            }
+        }
+    })
+</script>
+</body>
+</html>

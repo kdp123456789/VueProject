@@ -19,9 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cb43b68-a0a7-4db1-a64b-d62df43674ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/03-测试1/01-textClick.html" afterDir="false" />
+    <list default="true" id="6cb43b68-a0a7-4db1-a64b-d62df43674ea" name="Default Changelist" comment="添加了数组显示并点击其中一个就变颜色">
+      <change afterPath="$PROJECT_DIR$/03-动态绑定/02-v-bind动态绑定style.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-计算属性/01-计算属性基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-计算属性/02-计算属性的复杂操作.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-测试1/01-textClick.html" beforeDir="false" afterPath="$PROJECT_DIR$/03-动态绑定/01-v-bind动态绑定class.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +43,9 @@
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1gfSGnHLjMwgp1CxSGKcwhGEkEl" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -75,8 +81,17 @@
       <workItem from="1598506577233" duration="15000" />
       <workItem from="1598506599299" duration="16000" />
       <workItem from="1598506616287" duration="359000" />
-      <workItem from="1598523701589" duration="2871000" />
+      <workItem from="1598523701589" duration="3008000" />
+      <workItem from="1598531202440" duration="2768000" />
     </task>
+    <task id="LOCAL-00001" summary="添加了数组显示并点击其中一个就变颜色">
+      <created>1598526660632</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598526660632</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +108,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加了数组显示并点击其中一个就变颜色" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了数组显示并点击其中一个就变颜色" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="95" key="FileChooserDialogImpl" timestamp="1598506613488">
