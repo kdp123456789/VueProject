@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .color{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+     {{message}}
+    <h3 v-for="(item,index) in movies" v-on:click="text(index)" v-bind:class="{color:count == index}" >{{item}} -  {{index}}</h3>
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el : "#app",//用于管理元素（区域）
+        data : {
+            message : "你好，世界！",
+            movies : ["第一","第二","第三","第四"],
+            count : -1,
+        },
+        methods : {
+            text :function (index){
+                this.count = index;
+            }
+        }
+    })
+</script>
+</body>
+</html>
