@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //注意一：const表示常量，定义后必须赋值，不可被修改
+    // const name = "kuaiDongPing";
+
+    //注意二：const表示常量，不可被修改的是地址，里面的数据是可以修改的
+    const obj = {
+        name : "kuai",
+        age : "22",
+        height : "180cm",
+        eat : function (){
+
+        },
+        run : function (){
+
+        }
+    };
+    console.log(obj);
+    obj.name = "kuaidongping"
+    console.log(obj);
+</script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+<!--    单选-->
+    <h2>{{isAgree}}</h2>
+    <input type="checkbox" v-model="isAgree">同意
+    <button :disabled="!isAgree">下一步</button>
+
+<!--    多选-->
+    <h2>{{hobbie}}</h2>
+    <input type="checkbox" value="篮球" v-model="hobbie">篮球
+    <input type="checkbox" value="足球" v-model="hobbie">足球
+    <input type="checkbox" value="羽毛球" v-model="hobbie">羽毛球
+    <input type="checkbox" value="棒球" v-model="hobbie">棒球
+    <input type="checkbox" value="乒乓球" v-model="hobbie">乒乓球
+</div>
+<script src="../js/vue.js"></script>
+<script>
+    //语法糖就是简写，v-on:click => @click    v-bind:click => :click
+    const app = new Vue({
+        el : "#app",
+        data : {
+            isAgree : false,
+            hobbie : []
+        },
+        methods : {
+
+        }
+    })
+</script>
+</body>
+</html>

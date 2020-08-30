@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        [v-cloak]{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div id="app" >
+    <h2 v-text="count" v-cloak>{{message}}</h2>
+<!--    不使用语法糖写法-->
+<!--    <button v-on:click="count++">+</button>-->
+<!--    <button  v-on:click="count&#45;&#45;">-</button>-->
+
+    <!--    使用语法糖写法-->
+    <button @click="add()">+</button>
+    <button @click="sub()">-</button>
+</div>
+<script src="../js/vue.js"></script>
+<script>
+    //语法糖就是简写，v-on:click => @click    v-bind:click => :click
+    const app = new Vue({
+        el : "#app",
+        data : {
+            message : "你好，世界!",
+            count : 0,
+        },
+        methods : {
+            //这里采用的es6的语法，也就是字面量的增强写法
+            add () {
+                this.count++
+            },
+            sub() {
+                this.count--
+            }
+        }
+    })
+</script>
+</body>
+</html>

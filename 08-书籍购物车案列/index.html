@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app" v-cloak>
+    <table>
+        <thead>
+            <th>序号</th>
+            <th>书籍名称</th>
+            <th>出版日期</th>
+            <th>价格</th>
+            <th>购买数量</th>
+            <th>操作</th>
+        </thead>
+        <tbody >
+            <tr v-for="(book,index) in books" >
+                <td>{{book.id}}</td>
+                <td>{{book.name}}</td>
+                <td>{{book.date}}</td>
+                <td>{{book.price | showPrice()}}</td>
+                <td>
+                    <button @click="sub(index)" :disabled="book.count <= 0">—</button>
+                        {{book.count}}
+                    <button @click="add(index)" >+</button>
+                </td>
+                <td><button @click="del(index)" >删除</button></td>
+            </tr>
+        </tbody>
+    </table>
+    <div v-if="books.length > 0">
+        <h3>总价：{{getTotalPrice | showPrice}}</h3>
+    </div>
+    <div v-else>
+        <h3>购物车空荡荡！</h3>
+    </div>
+</div>
+<script src="../js/vue.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

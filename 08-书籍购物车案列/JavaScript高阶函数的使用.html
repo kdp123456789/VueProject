@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    const arr=[77,67,98,100,120,138,147];
+    //需要返回一个boolean类型值，true就添加进去，false就不加进去
+    // filter函数的使用
+    let newArr = arr.filter(function (n){
+        return n < 100
+    })
+    // console.log(newArr);
+
+    // map函数的使用(大于100的乘以2)
+    let newArr2 = newArr.map(function (n){
+        return n * 2;
+    })
+    // console.log(newArr2);
+
+    // reduce函数的使用，作用：对所有内容进行汇总
+    // pre表示前一个值，n表示当前值，第二个参数表示初始化值
+    let newArr3 = newArr2.reduce(function (pre,n){
+        return pre + n;
+    },0)
+    // console.log(newArr3);
+
+    let newArr4 = arr.filter(n => n < 100 ).map(n => n * 2 ).reduce( (pre,n) => pre + n ,0)
+    console.log(newArr4);
+</script>
+</body>
+</html>

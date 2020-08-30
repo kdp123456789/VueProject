@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <h2>{{message}}</h2>
+    <h2 v-for="(book,index ) in books">{{index+1}}.{{book}}</h2>
+</div>
+<script src="../js/vue.js"></script>
+<script>
+    //语法糖就是简写，v-on:click => @click    v-bind:click => :click
+    const app = new Vue({
+        el : "#app",
+        data : {
+            message : "你好，世界!",
+            books : ["计算机历史","编程思想","javaAPI","面试宝典"]
+        },
+        methods : {
+
+        }
+    })
+</script>
+</body>
+</html>

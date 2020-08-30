@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <h2>{{fullName1}}</h2>
+    <h2>{{fullName1}}</h2>
+    <h2>{{fullName1}}</h2>
+    <h2>{{fullName1}}</h2>
+    <h2>{{fullName1}}</h2>
+    <h2>{{fullName2()}}</h2>
+    <h2>{{fullName2()}}</h2>
+    <h2>{{fullName2()}}</h2>
+    <h2>{{fullName2()}}</h2>
+    <h2>{{fullName2()}}</h2>
+</div>
+<script src="../js/vue.js"></script>
+<script>
+    //methods会执行多次，计算属性指挥执行一次
+    const app = new Vue({
+        el : "#app",
+        data : {
+            message : "你好，世界!",
+            firstName : "1111",
+            endName : "2222",
+        },
+        methods : {
+            fullName2 : function(){
+                console.log("methods");
+                return this.firstName + " " + this.endName;
+            }
+        },
+        computed : {
+            fullName1 :{
+                //一般set会省略
+                set : function (fullName){
+                    let split = fullName.split(' ');
+                    this.firstName = split[0];
+                    this.endName = split[1];
+                },
+                get : function(){
+                    console.log("computed");
+                    return this.firstName + " " + this.endName;
+                }
+            }
+        }
+    })
+</script>
+</body>
+</html>

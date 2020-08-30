@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <h2>{{message}}</h2>
+    <button @click="btn1Click(abc,$event)">按钮一</button>
+    <button @click="btn2Click">按钮二</button>
+    <button @click="btn3Click($event)">按钮三</button>
+    <button @click="btn4Click">按钮四</button>
+</div>
+<script src="../js/vue.js"></script>
+<script>
+    //语法糖就是简写，v-on:click => @click    v-bind:click => :click
+    const app = new Vue({
+        el : "#app",
+        data : {
+            message : "你好，世界!",
+            abc :123
+        },
+        methods : {
+            btn1Click(d,e){
+                console.log(d,e)
+            },
+            btn2Click(e){
+                console.log(e)
+            },
+            btn3Click(e){
+                console.log(e)
+            },
+            btn4Click(e){
+                console.log(e)
+            }
+        }
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div >
+    <button>按钮一</button>
+    <button>按钮二</button>
+    <button>按钮三</button>
+</div>
+<script>
+    //var 是es5的语法，支队函数有作用域，对if,for这些没有作用域
+    var buttons = document.getElementsByTagName('button');
+    //方法一：结果不对
+    // for(var i = 0 ;i<buttons.length ;i++){
+    //     buttons[i].addEventListener('click',function (){
+    //         console.log("按钮"+i+"被点击！")
+    //     })
+    // }
+
+    //方法二：结果对，采用闭包解决
+    // for(var i = 0 ;i<buttons.length ;i++){
+    //     (function (i){
+    //         buttons[i].addEventListener('click',function (){
+    //             console.log("按钮"+i+"被点击！")
+    //         })
+    //     })(i)
+    // }
+
+    //方法三：结果对，采用具有块级作用域解决
+    for(let i = 0 ;i<buttons.length ;i++){
+        buttons[i].addEventListener('click',function (){
+            console.log("按钮"+i+"被点击！")
+        })
+    }
+
+</script>
+</body>
+</html>

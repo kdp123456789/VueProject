@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        [v-vloak]{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div id="app" >
+    <h2 v-if="isShow" >{{message}}</h2>
+    <h2 v-else >{{msese}}</h2>
+</div>
+<script src="../js/vue.js"></script>
+<script>
+    //语法糖就是简写，v-on:click => @click    v-bind:click => :click
+    const app = new Vue({
+        el : "#app",
+        data : {
+            message : "你好，世界!",
+            msese : "else被使用",
+            isShow : true
+        },
+        methods : {
+
+        }
+    })
+</script>
+</body>
+</html>
