@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <label id="sel"  v-for="item in hibbios" multiple>
+        <input type="checkbox"  :value="item" v-model="hibbioName">{{item}}</input>
+    </label>
+    <h2>{{hibbioName}}</h2>
+</div>
+<script src="../js/vue.js"></script>
+<script>
+    //语法糖就是简写，v-on:click => @click    v-bind:click => :click
+    const app = new Vue({
+        el : "#app",
+        data : {
+            hibbios : ['篮球','足球','乒乓球','高尔夫','羽毛球'],
+            hibbioName : []
+        },
+        methods : {
+
+        }
+    })
+</script>
+</body>
+</html>
