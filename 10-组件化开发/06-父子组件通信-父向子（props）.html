@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <cpn :cbooks="books" :cmessage="message"></cpn>
+</div>
+<template id="temp">
+    <div>
+        <p>{{cmessage}}</p>
+        <ul>
+            <li v-for="item in cbooks">{{item}}</li>
+        </ul>
+    </div>
+</template>
+<script src="../js/vue.js"></script>
+<script>
+    //语法糖就是简写，v-on:click => @click    v-bind:click => :click
+    //父->子 props    子->父
+
+
+    const app = new Vue({
+        el : "#app",
+        data : {
+            message : "父向子通讯",
+            books : ['修仙传','斗罗','武动','斗破']
+        },
+        methods : {
+
+        },
+        components : {
+            cpn : {
+                template : '#temp',
+                //1.数组
+                // props : ['cbooks','cmessage']
+
+                // 2.对象  对应的类型
+                // props : {
+                //     cbooks :Array,
+                //     cmessage : String
+                // }
+
+                // 3.对象   对应的对象
+                props : {
+                    cbooks : {
+                        type : Array,
+                        default : [],
+                        required :true
+                    },
+                    cmessage : {
+                        type : String,
+                        default : 11111,
+                        required :true
+                    }
+                }
+            }
+        }
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <h2>{{message}}</h2>
+    <cpn></cpn>
+    <cpn></cpn>
+    <cpn1></cpn1>
+    <cpn1></cpn1>
+</div>
+<!--模板一-->
+<script type="text/x-template" id="temp1">
+    <div>
+        <h2>{{count}}</h2>
+        <p>{{message}}</p>
+        <button @click="add">+</button>
+        <button @click="sub">-</button>
+    </div>
+</script>
+<!--模板二-->
+<template id="temp">
+    <div>
+        <h2>{{count}}</h2>
+        <p>{{message}}</p>
+        <button @click="add">+</button>
+        <button @click="sub">-</button>
+    </div>
+</template>
+<script src="../js/vue.js"></script>
+<script>
+    //语法糖就是简写，v-on:click => @click    v-bind:click => :click
+
+    //组件模板形式
+    Vue.component('cpn',{
+        template: '#temp',
+        data () {
+            return {
+                count : 0,
+                message : '模板二'
+            }
+        },
+        methods : {
+            add(){
+                this.count++
+            },
+            sub(){
+                this.count--
+            }
+        }
+    })
+
+    const app = new Vue({
+        el : "#app",
+        data : {
+            message : "你好，世界!",
+        },
+        components : {
+            cpn1 : {
+                template: '#temp1',
+                data () {
+                    return {
+                        count : 0,
+                        message : '模板一'
+                    }
+                },
+                methods : {
+                    add(){
+                        this.count++
+                    },
+                    sub(){
+                        this.count--
+                    }
+                }
+            }
+        }
+    })
+</script>
+</body>
+</html>
