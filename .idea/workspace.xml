@@ -22,8 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66555672-8dee-4083-b0c9-3e0e47bf20b3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="66555672-8dee-4083-b0c9-3e0e47bf20b3" name="Default Changelist" comment="增加组件模板抽离的写法以及data为什么是函数，父子组件通信（父向子通讯用props）">
       <change beforePath="$PROJECT_DIR$/08-书籍购物车案列/JavaScript高阶函数的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/08-书籍购物车案列/JavaScript高阶函数的使用.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598973426901</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="增加组件模板抽离的写法以及data为什么是函数，父子组件通信（父向子通讯用props）">
+      <created>1598975004944</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598975004944</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,10 +138,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="451" y="213" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1598783862836" />
-    <state x="135" y="0" width="1171" height="824" key="CommitChangelistDialog2" timestamp="1598973425955">
+    <state x="135" y="0" width="1171" height="824" key="CommitChangelistDialog2" timestamp="1598975014885">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="135" y="0" width="1171" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598973425955" />
+    <state x="135" y="0" width="1171" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598975014885" />
     <state x="549" y="166" key="FileChooserDialogImpl" timestamp="1598448497312">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -152,10 +158,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="490" y="154" width="540" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1598769530730" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1598974292389">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1598975027372">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598974292389" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598975027372" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1598974987901">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
