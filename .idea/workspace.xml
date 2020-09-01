@@ -19,12 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cb43b68-a0a7-4db1-a64b-d62df43674ea" name="Default Changelist" comment="添加了计算属性的只是以及v-bind:style的学习，以及修改了文件名">
-      <change afterPath="$PROJECT_DIR$/09-v-model使用/04-v-model和select结合使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-组件化开发/01-组件的基本使用.html" afterDir="false" />
+    <list default="true" id="6cb43b68-a0a7-4db1-a64b-d62df43674ea" name="Default Changelist" comment="添加了vue组件开发">
+      <change afterPath="$PROJECT_DIR$/10-组件化开发/02-全局组件和局部组件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-组件化开发/03-父组件与子组件的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-组件化开发/04-注册组件的语法糖写法.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08-书籍购物车案列/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/08-书籍购物车案列/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-v-model使用/02-v-model和radio结合使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/09-v-model使用/03-v-model和radio结合使用.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +89,8 @@
       <workItem from="1598531202440" duration="2768000" />
       <workItem from="1598846848276" duration="1498000" />
       <workItem from="1598868145693" duration="3037000" />
+      <workItem from="1598877187342" duration="64000" />
+      <workItem from="1598932298364" duration="2496000" />
     </task>
     <task id="LOCAL-00001" summary="添加了数组显示并点击其中一个就变颜色">
       <created>1598526660632</created>
@@ -98,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598526660632</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加了vue组件开发">
+      <created>1598877235117</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598877235117</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,7 +126,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加了数组显示并点击其中一个就变颜色" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加了数组显示并点击其中一个就变颜色" />
+    <MESSAGE value="添加了vue组件开发" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了vue组件开发" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="95" key="FileChooserDialogImpl" timestamp="1598506613488">
@@ -193,10 +202,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="188" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1598506747072" />
-    <state x="313" y="290" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598506540136">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1598932320260">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="313" y="290" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1598506540136" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1598932320260" />
+    <state x="313" y="290" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598932480731">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="313" y="290" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1598932480731" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1598523965957">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

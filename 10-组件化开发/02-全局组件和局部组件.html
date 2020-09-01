@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <cpn></cpn>
+    <cpn></cpn>
+    <cpn></cpn>
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+    //创建组件构造器
+    const cpnC = Vue.extend({
+        template : `
+            <div>
+                <h2>这是标题</h2>
+                <p>hahahhaha,</p>
+                <p>这是内容，哈哈哈哈哈</p>
+            </div>
+        `
+    })
+
+    //注册组件，起一个标签名
+    // Vue.component('cpn',cpnC)
+
+    const app = new Vue({
+        el : "#app",//用于管理元素（区域）
+        data : {
+            message : "你好，世界！",
+        },
+        //局部注册组件   标签名s：组件构造器名称
+        components : {
+            cpn : cpnC
+        }
+
+    })
+</script>
+</body>
+</html>
