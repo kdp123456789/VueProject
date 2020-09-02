@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <cpn @item-btn="cpnClick"></cpn>
+</div>
+<template id="temp">
+    <ul>
+        <li v-for="item in list"><button @click="btnClick(item)">{{item.name}}</button></li>
+    </ul>
+</template>
+<script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el : "#app",//用于管理元素（区域）
+        data : {
+
+        },
+        methods: {
+            cpnClick(item){
+                console.log(item.name)
+            }
+        },
+        components : {
+            cpn : {
+                template : '#temp',
+                data(){
+                    return {
+                        list : [
+                            {id:1,name:'手机数码'},
+                            {id:2,name:'生活用品'},
+                            {id:3,name:'夏季特惠'},
+                            {id:4,name:'二手优品'},
+                        ]
+                    }
+                },
+                //子——》父  用自定义事件
+                methods : {
+                    btnClick(item){
+                        //可以传了两个参数，第一个是自定义按钮名称    第二个是要传的数据
+                        this.$emit('item-btn',item)
+                    }
+                }
+            }
+        }
+    })
+</script>
+</body>
+</html>

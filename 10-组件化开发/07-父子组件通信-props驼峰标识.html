@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <cpn :c-mes="mes" :c-count="count"></cpn>
+</div>
+<template id="temp">
+    <div>
+        <p>{{cMes}}</p>
+        <p>{{cCount}}</p>
+    </div>
+</template>
+<script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el : "#app",//用于管理元素（区域）
+        data : {
+            count : 0,
+            mes : '父传子',
+        },
+        components : {
+            cpn : {
+                template : '#temp',
+                //父传子用   props
+                props : {
+                    cMes : {
+                        tyep : String,
+                        default : '初始值'
+                    },
+                    cCount : {
+                        tyep : Number,
+                        default: 0
+                    }
+                }
+            }
+        }
+    })
+</script>
+</body>
+</html>
