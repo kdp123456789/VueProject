@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,9 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cb43b68-a0a7-4db1-a64b-d62df43674ea" name="Default Changelist" comment="添加了vue组件开发">
+    <list default="true" id="66555672-8dee-4083-b0c9-3e0e47bf20b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-组件化开发/07-父子组件通信-props驼峰标识.html" beforeDir="false" afterPath="$PROJECT_DIR$/10-组件化开发/07-父子组件通信-props驼峰标识.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/10-组件化开发/08-父子组件通讯-子传父（自定义事件$emit）.html" beforeDir="false" afterPath="$PROJECT_DIR$/10-组件化开发/08-父子组件通讯-子传父（自定义事件$emit）.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -40,8 +44,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="ProjectId" id="1gfSGnHLjMwgp1CxSGKcwhGEkEl" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectId" id="1gMvOg2x4hPBFUXZoh0SlmOniFz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -49,62 +53,60 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/09-v-model使用" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\vueProject\09-v-model使用" />
+      <recent name="D:\vueProject\07-循环遍历" />
+      <recent name="D:\vueProject\06-条件判断" />
+      <recent name="D:\vueProject\images" />
+      <recent name="D:\vueProject\02-插值操作" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="s.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vueProject/02-插值操作/s.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.s.html" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6cb43b68-a0a7-4db1-a64b-d62df43674ea" name="Default Changelist" comment="" />
-      <created>1598504060630</created>
+      <changelist id="66555672-8dee-4083-b0c9-3e0e47bf20b3" name="Default Changelist" comment="" />
+      <created>1597937245801</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1598504060630</updated>
-      <workItem from="1598504061676" duration="1648000" />
-      <workItem from="1598506506771" duration="62000" />
-      <workItem from="1598506577233" duration="15000" />
-      <workItem from="1598506599299" duration="16000" />
-      <workItem from="1598506616287" duration="359000" />
-      <workItem from="1598523701589" duration="3008000" />
-      <workItem from="1598531202440" duration="2768000" />
-      <workItem from="1598846848276" duration="1498000" />
-      <workItem from="1598868145693" duration="3037000" />
-      <workItem from="1598877187342" duration="64000" />
-      <workItem from="1598932298364" duration="2496000" />
-      <workItem from="1599041698463" duration="370000" />
+      <updated>1597937245801</updated>
+      <workItem from="1597937247022" duration="299000" />
+      <workItem from="1597937667658" duration="174000" />
+      <workItem from="1597938326521" duration="1000000" />
+      <workItem from="1598448030201" duration="247000" />
+      <workItem from="1598448288217" duration="79000" />
+      <workItem from="1598448375026" duration="22000" />
+      <workItem from="1598448405530" duration="94000" />
+      <workItem from="1598448517581" duration="3466000" />
     </task>
-    <task id="LOCAL-00001" summary="添加了数组显示并点击其中一个就变颜色">
-      <created>1598526660632</created>
+    <task id="LOCAL-00001" summary="增加组件模板抽离的写法以及data为什么是函数，父子组件通信（父向子通讯用props）">
+      <created>1598973426901</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1598526660632</updated>
+      <updated>1598973426901</updated>
     </task>
-    <task id="LOCAL-00002" summary="添加了vue组件开发">
-      <created>1598877235117</created>
+    <task id="LOCAL-00002" summary="增加组件模板抽离的写法以及data为什么是函数，父子组件通信（父向子通讯用props）">
+      <created>1598975004944</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1598877235117</updated>
+      <updated>1598975004944</updated>
     </task>
     <option name="localTasksCounter" value="3" />
     <servers />
@@ -125,94 +127,53 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加了数组显示并点击其中一个就变颜色" />
-    <MESSAGE value="添加了vue组件开发" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加了vue组件开发" />
+    <MESSAGE value="增加组件模板抽离的写法以及data为什么是函数，父子组件通信（父向子通讯用props）" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加组件模板抽离的写法以及data为什么是函数，父子组件通信（父向子通讯用props）" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="95" key="FileChooserDialogImpl" timestamp="1598506613488">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="477" y="215" key="#Notifications" timestamp="1598974321102">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="446" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1598506613488" />
-    <state width="1017" height="184" key="GridCell.Tab.0.bottom" timestamp="1598506976389">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="477" y="215" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1598974321102" />
+    <state x="451" y="213" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598783862836">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1017" height="184" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598506976389" />
-    <state width="1017" height="184" key="GridCell.Tab.0.center" timestamp="1598506976389">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="451" y="213" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1598783862836" />
+    <state x="135" y="0" width="1171" height="824" key="CommitChangelistDialog2" timestamp="1598975014885">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1017" height="184" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598506976389" />
-    <state width="1017" height="184" key="GridCell.Tab.0.left" timestamp="1598506976389">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="135" y="0" width="1171" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598975014885" />
+    <state x="549" y="166" key="FileChooserDialogImpl" timestamp="1598448497312">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1017" height="184" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598506976389" />
-    <state width="1017" height="184" key="GridCell.Tab.0.right" timestamp="1598506976389">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="549" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598448497312" />
+    <state x="614" y="312" key="Gitee.ShareDialog" timestamp="1598974798689">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1017" height="184" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598506976389" />
-    <state width="1017" height="184" key="GridCell.Tab.1.bottom" timestamp="1598506976390">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="614" y="312" key="Gitee.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1598974798689" />
+    <state x="270" y="56" key="SettingsEditor" timestamp="1598974984364">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1017" height="184" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598506976390" />
-    <state width="1017" height="184" key="GridCell.Tab.1.center" timestamp="1598506976389">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="270" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1598974984364" />
+    <state x="490" y="154" width="540" height="524" key="StructurePopup" timestamp="1598769530730">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1017" height="184" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1598506976389" />
-    <state width="1017" height="184" key="GridCell.Tab.1.left" timestamp="1598506976389">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="490" y="154" width="540" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1598769530730" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1598975027372">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1017" height="184" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1598506976389" />
-    <state width="1017" height="184" key="GridCell.Tab.1.right" timestamp="1598506976390">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598975027372" />
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1598974987901">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1017" height="184" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1598506976390" />
-    <state width="1017" height="184" key="GridCell.Tab.2.bottom" timestamp="1598506976390">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1598974987901" />
+    <state x="558" y="335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598974755912">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1017" height="184" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598506976390" />
-    <state width="1017" height="184" key="GridCell.Tab.2.center" timestamp="1598506976390">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="558" y="335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1598974755912" />
+    <state x="426" y="66" width="672" height="678" key="search.everywhere.popup" timestamp="1598972434127">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1017" height="184" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1598506976390" />
-    <state width="1017" height="184" key="GridCell.Tab.2.left" timestamp="1598506976390">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1017" height="184" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1598506976390" />
-    <state width="1017" height="184" key="GridCell.Tab.2.right" timestamp="1598506976390">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1017" height="184" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1598506976390" />
-    <state width="1017" height="184" key="GridCell.Tab.3.bottom" timestamp="1598506976390">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1017" height="184" key="GridCell.Tab.3.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598506976390" />
-    <state width="1017" height="184" key="GridCell.Tab.3.center" timestamp="1598506976390">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1017" height="184" key="GridCell.Tab.3.center/0.0.1280.680@0.0.1280.680" timestamp="1598506976390" />
-    <state width="1017" height="184" key="GridCell.Tab.3.left" timestamp="1598506976390">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1017" height="184" key="GridCell.Tab.3.left/0.0.1280.680@0.0.1280.680" timestamp="1598506976390" />
-    <state width="1017" height="184" key="GridCell.Tab.3.right" timestamp="1598506976390">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1017" height="184" key="GridCell.Tab.3.right/0.0.1280.680@0.0.1280.680" timestamp="1598506976390" />
-    <state x="188" y="0" key="SettingsEditor" timestamp="1598506747072">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="188" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1598506747072" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1599041742356">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1599041742356" />
-    <state x="313" y="290" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598932480731">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="313" y="290" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1598932480731" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1598523965957">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1598523965957" />
+    <state x="426" y="66" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1598972434127" />
   </component>
 </project>
