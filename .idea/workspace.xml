@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cb43b68-a0a7-4db1-a64b-d62df43674ea" name="Default Changelist" comment="添加了vue组件开发">
-      <change afterPath="$PROJECT_DIR$/10-组件化开发/07-父子组件通信-props驼峰标识.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-组件化开发/08-父子组件通讯-子传父（自定义事件$emit）.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-组件化开发/07-父子组件通信-props驼峰标识.html" beforeDir="false" afterPath="$PROJECT_DIR$/10-组件化开发/07-父子组件通信-props驼峰标识.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-组件化开发/08-父子组件通讯-子传父（自定义事件$emit）.html" beforeDir="false" afterPath="$PROJECT_DIR$/10-组件化开发/08-父子组件通讯-子传父（自定义事件$emit）.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +90,7 @@
       <workItem from="1598868145693" duration="3037000" />
       <workItem from="1598877187342" duration="64000" />
       <workItem from="1598932298364" duration="2496000" />
+      <workItem from="1599041698463" duration="370000" />
     </task>
     <task id="LOCAL-00001" summary="添加了数组显示并点击其中一个就变颜色">
       <created>1598526660632</created>
@@ -201,10 +202,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="188" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1598506747072" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1598932320260">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1599041742356">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1598932320260" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1599041742356" />
     <state x="313" y="290" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598932480731">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
